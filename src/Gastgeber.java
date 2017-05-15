@@ -2,13 +2,14 @@
  * Created by denni on 15.05.2017.
  */
 public class Gastgeber extends Person {
-    Party party = new Party();
+
+    private Party party;
 
     public void createParty(){
 
     }
 
-    public void getParty(){
-
+    public Party getParty(){
+        return this.party;
     }
 }

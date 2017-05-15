@@ -5,13 +5,16 @@ public class Person {
     private String vorname;
     private String nachname;
 
-    public String getVorname(){
+    public Person(String vorname, String nachname){
         this.vorname = vorname;
-        return vorname;
+        this.nachname = nachname;
+    }
+
+    public String getVorname(){
+        return this.vorname;
     }
 
     public String getNachname(){
-        this.nachname = nachname;
-        return nachname;
+        return this.nachname;
     }
 }
