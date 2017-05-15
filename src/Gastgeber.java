@@ -5,6 +5,10 @@ public class Gastgeber extends Person {
 
     private Party party;
 
+    public Gastgeber(String vorname, String nachname) {
+        super(vorname, nachname);
+    }
+
     public void createParty(){
 
     }
