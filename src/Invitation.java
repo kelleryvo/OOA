@@ -2,10 +2,17 @@
  * Created by yvokeller on 15.05.17.
  */
 public class Invitation {
+    //Attribute
     private Person person;
     private boolean accepted;
     private String message;
 
+    //Constructor
+    public Invitation(Person person){
+        this.person = person;
+    }
+
+    //Functions
     public void send(){
 
     }
@@ -17,6 +24,7 @@ public class Invitation {
         setAccepted(false);
     }
 
+    //Get & Set
     public boolean isAccepted() {
         return accepted;
     }
